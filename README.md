@@ -11,7 +11,7 @@
   * 去均值 ：将输入数据的各个维度中心化到0 <br>
   * 归一化 ：将输入数据的各个维度的幅度归一化到同样的范围 <br>
   * PCA/白化 ： 用PCA降维，白化是对数据的每个特征轴上的幅度归一化 <br>
-* 卷积计算层 <br> 
+* 卷积计算层  'http://cs231n.github.io/assets/conv-demo/index.html'  <br>
 * relu激励层 <br>
 * 池化层 <br>
 * 全连接层 <br>
