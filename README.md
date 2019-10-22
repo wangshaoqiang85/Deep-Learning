@@ -11,7 +11,15 @@
   * 去均值 ：将输入数据的各个维度中心化到0 <br>
   * 归一化 ：将输入数据的各个维度的幅度归一化到同样的范围 <br>
   * PCA/白化 ： 用PCA降维，白化是对数据的每个特征轴上的幅度归一化 <br>
-* 卷积计算层  `http://cs231n.github.io/assets/conv-demo/index.html` <br>
+* 卷积计算层  <br>
+（演示链接： `http://cs231n.github.io/assets/conv-demo/index.html` )<br>
+局部关联：局部数据识别 <br>
+<font color='red'>
+窗口滑动：滑动预先设定步长，移动位置来得到下一个窗口 <br>
+ </font>
+深度：转换次数（结果产生的depth） <br>
+步长：设定每一步移动多少  <br>
+填充值：可以在矩阵的周边添加一些扩充值（目的是解决图片输入不规整） <br>
 * relu激励层 <br>
 * 池化层 <br>
 * 全连接层 <br>
