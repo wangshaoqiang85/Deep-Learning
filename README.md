@@ -24,4 +24,4 @@
 * 池化层 
 * 全连接层 
 ## RNN（循环神经网络）
-Thank `You` . Please `Call` Me `Coder`
+待更中......
