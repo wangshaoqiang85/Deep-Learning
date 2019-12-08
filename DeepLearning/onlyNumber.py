@@ -187,7 +187,7 @@ def crack_captcha(captcha_image):
 
 
 if __name__ == '__main__':
-    train = 1   # train==0是训练模型，train是应用模型
+    train = 1   # train==0是训练模型，train==1是应用模型
     if train == 0:
         number = ['0','1','2','3','4','5','6','7','8','9']
 
